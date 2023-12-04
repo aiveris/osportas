@@ -17,6 +17,23 @@ body {
   min-height: 100vh;
   background: rgb(192, 212, 229);;
 }
+button {
+  background: #ddd;
+  border: 0px solid #201d1c;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #201d1c;
+  margin-left: 4px;
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .btn {
   background: transparent;
   width: 40px;
@@ -69,7 +86,7 @@ header {
   border-radius: 10px 10px 0px 0px;
 }
 table {
-  width: 90%;
+  width: 97%;
   margin: 0.5rem auto;
   border-collapse: collapse;
 }
@@ -114,6 +131,13 @@ table th {
 .edit-modal {
   animation-name: animatetop;
   animation-duration: 0.4s;
+}
+.players{
+  position: relative;
+  background: white;
+  text-align: center;
+  width: 312px;
+  padding-bottom: 0.5rem;
 }
 @keyframes animatetop {
   from {
@@ -163,4 +187,6 @@ h4 {
 h3 {
   text-align: center;
 }
-
+.disabled {
+  opacity: 0.4;
+}
