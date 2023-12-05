@@ -65,6 +65,7 @@
               placeholder="Įveskite vardą"
               maxlength="20"
               required="required"
+              onkeypress="return /[0-9a-zA-Z]/i.test(event.key)"
             />
             <button class="btn btn-modal">OK</button>
           </form>
