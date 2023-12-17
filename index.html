@@ -44,9 +44,10 @@
             type="text"
             name="todo"
             placeholder="Įveskite vardą"
-            maxlength="22"
             required="required"
-            onkeypress="return /[0-9a-zA-Z]/i.test(event.key)"
+            minlength="5"
+            maxlength="22"
+            onkeypress="return /[0-9a-žA-Ž ]/i.test(event.key)"
           />
           <button class="btn btn-modal">OK</button>
         </form>
@@ -66,9 +67,10 @@
               type="text"
               name="todo"
               placeholder="Įveskite vardą"
-              maxlength="20"
               required="required"
-              onkeypress="return /[0-9a-zA-Z]/i.test(event.key)"
+              minlength="5"
+              maxlength="22"
+              onkeypress="return /[0-9a-žA-Ž ]/i.test(event.key)"
             />
             <button class="btn btn-modal">OK</button>
           </form>
