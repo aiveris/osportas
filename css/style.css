@@ -28,10 +28,12 @@ button {
   height: 35px;
   font-size: 1.05em;
   font-weight: bold;
+  transition: 0.3s;
 }
 button:hover {
   transform: scale(1.05);
   cursor: pointer;
+  background: linear-gradient(45deg, #67e8f9, #1d4ed8, #d946ef, #ef4444, #fde047);
 }
 
 .btn {
@@ -41,7 +43,6 @@ button:hover {
   border-radius: 10px;
   cursor: pointer;
   outline: none;
-  transition: all 0.5s ease;
   box-shadow: none;
   right: 15px;
   font-size: 0.9em;
@@ -53,12 +54,15 @@ button:hover {
   width: 55px;
   height: 25px;
   color: black;
-  border: 1px solid black;
+  border: none;
   margin-left: 20px;
+  background: #ddd;
+  box-shadow: 0 0 6px #201d1c;
 }
 .btn-modal:hover {
-  background: #457b9d;
-  color: #ffff;
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #67e8f9, #1d4ed8, #d946ef, #ef4444, #fde047);
+  border: none;
 }
 .btn-edit {
   color: #457b9d;
@@ -68,7 +72,6 @@ button:hover {
 .btn-edit:hover {
   background: #457b9d;
   color: #ffff;
-  border: 1px solid #457b9d;
 }
 .btn-delete {
   color: red;
@@ -153,14 +156,25 @@ table th {
 .modal-show {
   display: block;
 }
-.modal-header {
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   background: #CFD2CF;
   padding: 0.5rem;
   border-radius: 10px 10px 0px 0px;
-  text-align: right;
 }
-
+.header-text{
+  margin-right: 70px;
+}
+.modal-header {
+  text-align: right;
+  width: 100%;
+  background: #CFD2CF;
+  padding: 0.5rem;
+  border-radius: 10px 10px 0px 0px;
+}
 input {
   width: 12rem;
   height: 2.2rem;
@@ -175,10 +189,6 @@ input {
 }
 p {
   display: inline-block;
-  margin-right: 70px;
-}
-i {
-  cursor: pointer;
 }
 h4 {
   display: inline-block;
@@ -186,7 +196,8 @@ h4 {
   text-align: center;
 }
 h3 {
-  text-align: center;
+  text-align: left;
+  padding-left:10px;
 }
 .disabled {
   opacity: 0.4;

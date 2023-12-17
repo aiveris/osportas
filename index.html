@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>O dangau</title>
+    <title>O, dangau!</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
     />
   </head>
   <body>
     <div class="modal">
-      <div class="modal-header">
-        <h3>O dangau!</h3>
-        <label style="text-align: right;">Užsiregistravo:</label>
+      <div class="header">
+        <div>
+          <img src="assets/odangau.jpg" height="50" width="50" alt="odangau logo" style="margin-bottom:-5px;"/>
+        </div>
+        <div class="header-text">
+        <h3>O, dangau!</h3>
+        <label>Užsiregistravo:</label>
         <p id="countA1" class="count">0</p>
+        </div>
       </div>
       <div class="players">
         <button onclick="add_player_0()" id="0" class="" value="0">0</button>
@@ -52,10 +57,8 @@
     <div class="edit-modal modal-wrapper">
       <div class="modal">
         <div class="modal-header">
-          <i class="fi fi-br-cross-small"
-            onclick="close_modal()"
-            style="font-size: 24px"
-          ></i>
+          <p onclick="close_modal()"
+             style="font-size: 20px; cursor: pointer; margin-right:5px;">✖</p>
         </div>
         <div class="modal-body">
           <form class="form" autocomplete="off">
