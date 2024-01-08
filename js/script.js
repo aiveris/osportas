@@ -98,83 +98,83 @@ function add_player_0() {
   db.collection("a1").add({
     todo: "Tomas Žiburkus 0"
   });
-document.getElementById("0").style.background = "#A6CF98";
+//document.getElementById("0").style.background = "#A6CF98";
 }
 function add_player_1() {
   db.collection("a1").add({
     todo: "Jonas Savickas 1"
   });
-  document.getElementById("1").style.background = "#A6CF98";
+//  document.getElementById("1").style.background = "#A6CF98";
 }
 function add_player_3() {
   db.collection("a1").add({
     todo: "Mindaugas Beleka 3"
   });
-  document.getElementById("3").style.background = "#A6CF98";
+//  document.getElementById("3").style.background = "#A6CF98";
 }
 function add_player_5() {
   db.collection("a1").add({
     todo: "Dainius Stoškus 5"
   });
-  document.getElementById("5").style.background = "#A6CF98";
+//  document.getElementById("5").style.background = "#A6CF98";
 }
-function add_player_7() {
+function add_player_42() {
   db.collection("a1").add({
-    todo: "Arūnas Stoškus 7"
+    todo: "Donatas Bilius 42"
   });
-  document.getElementById("7").style.background = "#A6CF98";
+//  document.getElementById("42").style.background = "#A6CF98";
 }
 function add_player_8() {
   db.collection("a1").add({
     todo: "Laimonas Šegžda 8"
   });
-  document.getElementById("8").style.background = "#A6CF98";
+//  document.getElementById("8").style.background = "#A6CF98";
 }
 function add_player_9() {
   db.collection("a1").add({
     todo: "Arminas Zakarys 9"
   });
-  document.getElementById("9").style.background = "#A6CF98";
+//  document.getElementById("9").style.background = "#A6CF98";
 }
-function add_player_10() {
+function add_player_77() {
   db.collection("a1").add({
-    todo: "Artūras Šležas 10"
+    todo: "Karolis Steikūnas 77"
   });
-  document.getElementById("10").style.background = "#A6CF98";
+//  document.getElementById("10").style.background = "#A6CF98";
 }
-function add_player_13() {
+function add_player_21() {
   db.collection("a1").add({
-    todo: "Vytautas Mereckis 13"
+    todo: "Modestas Ulevičius 21"
   });
-  document.getElementById("13").style.background = "#A6CF98";
-}
-function add_player_14() {
-  db.collection("a1").add({
-    todo: "Augustinas Stoškus 14"
-  });
-  document.getElementById("14").style.background = "#A6CF98";
+//  document.getElementById("21").style.background = "#A6CF98";
 }
 function add_player_15() {
   db.collection("a1").add({
-    todo: "Gediminas Petrauskas 15"
+    todo: "Mantas Kadzevičius 15"
   });
-  document.getElementById("15").style.background = "#A6CF98";
+//  document.getElementById("15").style.background = "#A6CF98";
 }
 function add_player_17() {
   db.collection("a1").add({
     todo: "Evaldas Žemaitis 17"
   });
-  document.getElementById("17").style.background = "#A6CF98";
+//  document.getElementById("17").style.background = "#A6CF98";
 }
 function add_player_33() {
   db.collection("a1").add({
     todo: "Rimantas Sagatas 33"
   });
-  document.getElementById("33").style.background = "#A6CF98";
+//  document.getElementById("33").style.background = "#A6CF98";
 }
-function add_player_55() {
+function add_player_E55() {
   db.collection("a1").add({
     todo: "Justas Sobolevskis 55"
   });
-  document.getElementById("55").style.background = "#A6CF98";
+//  document.getElementById("E55").style.background = "#A6CF98";
+}
+function add_player_A55() {
+  db.collection("a1").add({
+    todo: "Petras Gerasimenko 55"
+  });
+//  document.getElementById("A55").style.background = "#A6CF98";
 }
