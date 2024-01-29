@@ -130,12 +130,7 @@ function add_player_5() {
   });
 //  document.getElementById("5").style.background = "#A6CF98";
 }
-function add_player_2() {
-  db.collection("a1").add({
-    todo: "Vitalij Bakula 2"
-  });
-//  document.getElementById("2").style.background = "#A6CF98";
-}
+
 function add_player_7() {
   db.collection("a1").add({
     todo: "Modestas Ulevičius 7"
@@ -162,7 +157,7 @@ function add_player_10() {
 }
 function add_player_11() {
   db.collection("a1").add({
-    todo: "Gediminas Petrauskas 11"
+    todo: "Tomas Purlys 11"
   });
 //  document.getElementById("11").style.background = "#A6CF98";
 }
