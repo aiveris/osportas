@@ -96,128 +96,117 @@ function close_modal() {
 
 function add_player_0() {
   db.collection("a1").add({
-    todo: "Tomas Žiburkus 0"
+    todo: "Daivaras Lebednykas 0"
   });
-//document.getElementById("0").style.background = "#A6CF98";
 }
 function add_player_1() {
   db.collection("a1").add({
     todo: "Jonas Savickas 1"
+
   });
-//  document.getElementById("1").style.background = "#A6CF98";
 }
 function add_player_2() {
   db.collection("a1").add({
     todo: "Gediminas Petrauskas 2"
   });
-//  document.getElementById("2").style.background = "#A6CF98";
 }
 function add_player_3() {
   db.collection("a1").add({
-    todo: "Mindaugas Beleka 3"
+    todo: "Simonas Šidlauskas 3"
   });
-//  document.getElementById("3").style.background = "#A6CF98";
 }
 function add_player_4() {
   db.collection("a1").add({
     todo: "Vytautas Rakauskas 4"
   });
-//  document.getElementById("4").style.background = "#A6CF98";
 }
 function add_player_5() {
   db.collection("a1").add({
-    todo: "Dainius Stoškus 5"
+    todo: "Edvinas Ribokas 5"
   });
-//  document.getElementById("5").style.background = "#A6CF98";
 }
-
 function add_player_7() {
   db.collection("a1").add({
     todo: "Modestas Ulevičius 7"
   });
-//  document.getElementById("7").style.background = "#A6CF98";
 }
 function add_player_8() {
   db.collection("a1").add({
     todo: "Laimonas Šegžda 8"
   });
-//  document.getElementById("8").style.background = "#A6CF98";
 }
 function add_player_9() {
   db.collection("a1").add({
     todo: "Arminas Zakarys 9"
   });
-//  document.getElementById("9").style.background = "#A6CF98";
 }
 function add_player_10() {
   db.collection("a1").add({
-    todo: "Artūras Šležas 10"
+    todo: "Edvinas Ščerbukas 10"
   });
-//document.getElementById("10").style.background = "#A6CF98";
 }
 function add_player_11() {
   db.collection("a1").add({
     todo: "Tomas Purlys 11"
   });
-//  document.getElementById("11").style.background = "#A6CF98";
 }
 function add_player_12() {
   db.collection("a1").add({
     todo: "Paulius Vitkauskas 12"
   });
-//document.getElementById("12").style.background = "#A6CF98";
 }
 function add_player_13() {
   db.collection("a1").add({
-    todo: "Vytautas Mereckis 13"
+    todo: "Lukas Revinskas 13"
   });
-//document.getElementById("13").style.background = "#A6CF98";
 }
 function add_player_14() {
   db.collection("a1").add({
     todo: "Augustinas Stoškus 14"
   });
-//document.getElementById("14").style.background = "#A6CF98";
 }
 function add_player_15() {
   db.collection("a1").add({
-    todo: "Mantas Kadzevičius 15"
+    todo: "Artūras Simonaitis 15"
   });
-//  document.getElementById("15").style.background = "#A6CF98";
 }
 function add_player_17() {
   db.collection("a1").add({
-    todo: "Evaldas Žemaitis 17"
+    todo: "Vitalij Bakula 17"
   });
-//  document.getElementById("17").style.background = "#A6CF98";
 }
 function add_player_33() {
   db.collection("a1").add({
-    todo: "Rimantas Sagatas 33"
+    todo: "Gabrys Gadaunykas 33"
   });
-//  document.getElementById("33").style.background = "#A6CF98";
 }
 function add_player_42() {
   db.collection("a1").add({
     todo: "Donatas Bilius 42"
   });
-//  document.getElementById("42").style.background = "#A6CF98";
 }
-function add_player_E55() {
+function add_player_55() {
   db.collection("a1").add({
-    todo: "Justas Sobolevskis 55"
+    todo: "Donatas Bilius 55"
   });
-//  document.getElementById("E55").style.background = "#A6CF98";
 }
-function add_player_A55() {
+function add_player_69() {
   db.collection("a1").add({
-    todo: "Petras Gerasimenko 55"
+    todo: "Mantas Kadzevičius 69"
   });
-//  document.getElementById("A55").style.background = "#A6CF98";
 }
 function add_player_77() {
   db.collection("a1").add({
-    todo: "Karolis Steikūnas 77"
+    todo: "Laurynas Ribakas 77"
   });
-//  document.getElementById("10").style.background = "#A6CF98";
+  console.log(tr.data-id)
 }
+function drop_table() {
+       var result = confirm("Want to delete?");
+       if (result) {
+         db.collection("a1").doc("*").delete();
+     }
+}
+
+
+
