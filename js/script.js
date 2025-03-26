@@ -142,17 +142,17 @@ function add_player_9() {
 }
 function add_player_10() {
   db.collection("a1").add({
-    todo: "Marius Pavalkis 10"
+    todo: "Edvinas Ščerbukas 10"
   });
 }
 function add_player_11() {
   db.collection("a1").add({
-    todo: "Tomas Purlys 11"
+    todo: "Marius Pavalkis 11"
   });
 }
 function add_player_12() {
   db.collection("a1").add({
-    todo: "Paulius Vitkauskas 12"
+    todo: "Eimantas Stalyga 12"
   });
 }
 function add_player_13() {
@@ -175,6 +175,11 @@ function add_player_17() {
     todo: "Vitalij Bakula 17"
   });
 }
+function add_player_24() {
+  db.collection("a1").add({
+    todo: "Ignas Tylingo 24"
+  });
+}
 function add_player_33() {
   db.collection("a1").add({
     todo: "Gabrys Gadaunykas 33"
@@ -188,6 +193,11 @@ function add_player_42() {
 function add_player_55() {
   db.collection("a1").add({
     todo: "Donatas Bilius 55"
+  });
+}
+function add_player_68() {
+  db.collection("a1").add({
+    todo: "Darius Šalomskas 68"
   });
 }
 function add_player_69() {
