@@ -142,7 +142,7 @@ function add_player_9() {
 }
 function add_player_10() {
   db.collection("a1").add({
-    todo: "Edvinas Ščerbukas 10"
+    todo: "Marius Pavalkis 10"
   });
 }
 function add_player_11() {
@@ -192,12 +192,12 @@ function add_player_55() {
 }
 function add_player_69() {
   db.collection("a1").add({
-    todo: "Mantas Kadzevičius 69"
+    todo: "Darius Šalomskas 69"
   });
 }
 function add_player_77() {
   db.collection("a1").add({
-    todo: "Laurynas Ribakas 77"
+    todo: "Artūras Krivickas 77"
   });
   console.log(tr.data-id)
 }
